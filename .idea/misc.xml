@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/shidd/AndroidStudioProjects/ToastingLibaray/ToastingLibaray/src/main/res/drawable/custom_background.xml" value="0.1" />
+        <entry key="..\:/Users/shidd/AndroidStudioProjects/ToastingLibaray/ToastingLibaray/src/main/res/layout/toastlayout.xml" value="0.1" />
         <entry key="..\:/Users/shidd/AndroidStudioProjects/ToastingLibaray/app/src/main/res/layout/activity_main.xml" value="0.22" />
       </map>
     </option>
