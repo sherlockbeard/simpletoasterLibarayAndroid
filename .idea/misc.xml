@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/shidd/AndroidStudioProjects/ToastingLibaray/ToastingLibaray/src/main/res/drawable/custom_background.xml" value="0.1" />
+        <entry key="..\:/Users/shidd/AndroidStudioProjects/ToastingLibaray/ToastingLibaray/src/main/res/drawable/toast_frame.xml" value="0.15052083333333333" />
         <entry key="..\:/Users/shidd/AndroidStudioProjects/ToastingLibaray/ToastingLibaray/src/main/res/layout/toastlayout.xml" value="0.1" />
         <entry key="..\:/Users/shidd/AndroidStudioProjects/ToastingLibaray/app/src/main/res/layout/activity_main.xml" value="0.22" />
       </map>
