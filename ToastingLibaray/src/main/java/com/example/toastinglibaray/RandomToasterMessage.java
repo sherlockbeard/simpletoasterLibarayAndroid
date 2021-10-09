@@ -16,8 +16,10 @@ public class RandomToasterMessage {
 
         Toast toast = new Toast(c);
         toast.setDuration(Toast.LENGTH_LONG);
-        View view = LayoutInflater.from(c).inflate(TEXT_TOAST_LAYOUT, null);
-        TextView textView = view.findViewById(R.id.message);
+        LayoutInflater inflater = (LayoutInflater) c.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        View view = inflater.inflate(R.layout.toastlayout, null);
+        View rootView = view.findViewById(R.id.ToastView);
+        TextView textView = rootView.findViewById(R.id.message);
         textView.setText(message);
         toast.setView(view);
         toast.show();

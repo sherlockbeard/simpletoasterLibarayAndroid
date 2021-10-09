@@ -2,16 +2,18 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="?android:attr/toastFrameBackground">
+    android:id="@+id/ToastView"
+    android:orientation="vertical">
     <TextView
-        android:id="@android:id/message"
+        android:id="@+id/message"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:layout_marginHorizontal="24dp"
         android:layout_marginVertical="15dp"
+        android:textSize="19dp"
         android:layout_gravity="center_horizontal"
         android:textAppearance="@style/TextAppearance.Toast"
+        android:background="@drawable/toast_frame"
         android:textColor="@color/primary_text_default_material_light"/>
 </LinearLayout>
